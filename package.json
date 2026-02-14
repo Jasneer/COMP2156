@@ -20,8 +20,8 @@
   "bugs": {
     "url": "https://github.com/Jasneer/COMP2156/issues"
   },
-  "homepage": "https://github.com/Jasneer/COMP2156#readme",
-  "dependencies": {
+  "homepage": "https://Jasneer.github.io/COMP2156",
+    "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -41,6 +41,11 @@
       ">0.2%",
       "not dead",
       "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   }
 }

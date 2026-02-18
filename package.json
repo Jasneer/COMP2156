@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "",
-  "homepage": "https://jasneer.github.io/COMP2156"
-",
+  "homepage": "https://jasneer.github.io/COMP2156",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

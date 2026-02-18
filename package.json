@@ -1,18 +1,20 @@
 {
   "name": "comp2156",
   "version": "1.0.0",
+  "private": true,
   "description": "",
+  "homepage": "https://jasneer.github.io/COMP2156",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "echo \"Error: no test specified\"",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jasneer/COMP2156.git"
+    "url": "https://github.com/Jasneer/COMP2156.git"
   },
   "keywords": [],
   "author": "",
@@ -20,8 +22,7 @@
   "bugs": {
     "url": "https://github.com/Jasneer/COMP2156/issues"
   },
-  "homepage": "https://Jasneer.github.io/COMP2156",
-    "dependencies": {
+  "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -47,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
